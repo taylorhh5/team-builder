@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #45A4E7;
+  min-height: 100vh;
+  font-weight: 700;
+  color: #EAF4F5;
 }
 
 .App-logo {
@@ -9,14 +13,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(40px + 2vmin);
+  color: #222767;
+  padding-top: 2rem;
 }
 
 .App-link {
@@ -31,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 5rem;
+  align-items: center;
+}
+.formsParent{
+  display: flex;
+  flex-wrap: wrap;
+}
+.forms {
+  
+    background: #222767;
+    box-shadow: 0 90px 80px rgba(148, 26, 26, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+    width: 100%;
+    max-width: 300px;
+    height: 12rem;
+    padding: 10px;
+    margin: 16px auto;
+    text-align: center;
+    border: 2.5px solid #B4393D;
+  }
+
+  input{
+    width: 200px;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;  
+    border: 1.7px solid #B4393D;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+  button{
+    font-size: 1.2rem;
+    background-color: #EAF4F5;
+    height:2rem;
+    width:8rem;
+  }

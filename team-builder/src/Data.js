@@ -6,14 +6,14 @@ export default
       name: "Taylor",
       email:
         "taylor@taylor.net",
-        role: "student"
+        role: "Front-end"
     },
     {
         id: 2,
       name: "Bob",
       email:
         "bob@bob.net",
-        role: "front end"
+        role: "Front-end"
 
     },
     {
@@ -21,7 +21,7 @@ export default
       name: "Fred",
       email:
         "fred@fred.net",
-        role: "back end"
+        role: "Back-end"
 
     }
   ];

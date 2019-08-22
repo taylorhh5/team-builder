@@ -1,4 +1,5 @@
 import React, { useState} from "react";
+import './App.css';
 
 const FormLayout = props => {
     const [note, setNote] =useState ({name: '', email: '', role: ''})
@@ -24,7 +25,7 @@ const FormLayout = props => {
 <label htmlFor="title">Enter Name</label> 
 <input type="text"
  name="name"
-  placeholder="name placeholder" 
+  placeholder="What's your name?" 
   value={note.name} //dynamic from state
   onChange={changeHandler}
   />
@@ -32,7 +33,7 @@ const FormLayout = props => {
 <label htmlFor="email">Enter Email</label>
 
 <input name ="email" 
-placeholder="whats your email?" 
+placeholder="What's your email?" 
 value={note.email}
 
 onChange={changeHandler}
@@ -42,7 +43,7 @@ onChange={changeHandler}
 <label htmlFor="role">Enter Role</label>
 <input type="text"
  name="role"
-  placeholder="role placeholder" 
+  placeholder="What's your role?" 
   value={note.role}
 
   onChange={changeHandler}
