@@ -1,4 +1,6 @@
-export default [
+import React from "react"
+export default
+[
     {
       id: 1,
       name: "Taylor",
@@ -7,7 +9,7 @@ export default [
         role: "student"
     },
     {
-        id: 1,
+        id: 2,
       name: "Bob",
       email:
         "bob@bob.net",
@@ -15,7 +17,7 @@ export default [
 
     },
     {
-        id: 1,
+        id: 3,
       name: "Fred",
       email:
         "fred@fred.net",
@@ -23,4 +25,4 @@ export default [
 
     }
   ];
-  
+   
